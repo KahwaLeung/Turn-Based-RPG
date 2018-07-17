@@ -21,11 +21,12 @@ public class Player : MonoBehaviour {
         m_controller = this.GetComponent<CharacterController>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         //角色状态机
         switch (currentState)
         {
+            //移动状态
             case State.Move:
                 float x = Input.GetAxis("Horizontal");
                 float z = Input.GetAxis("Vertical");
@@ -38,6 +39,7 @@ public class Player : MonoBehaviour {
                 //转向
                 transform.forward = Vector3.Lerp(transform.forward, nextDir, .3f);
                 break;
+                //战斗状态
             case State.Battle:
                 break;
         }
