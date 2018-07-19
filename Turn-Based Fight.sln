@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turn-Based Fight", "Assembly-CSharp-firstpass.csproj", "{4D98395D-5285-2AC2-2F30-ABF50277C57D}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turn-Based Fight", "Assembly-CSharp.csproj", "{32A85292-9572-5AF7-5F93-757B7FF77C4D}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D98395D-5285-2AC2-2F30-ABF50277C57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D98395D-5285-2AC2-2F30-ABF50277C57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D98395D-5285-2AC2-2F30-ABF50277C57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D98395D-5285-2AC2-2F30-ABF50277C57D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32A85292-9572-5AF7-5F93-757B7FF77C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32A85292-9572-5AF7-5F93-757B7FF77C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32A85292-9572-5AF7-5F93-757B7FF77C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU

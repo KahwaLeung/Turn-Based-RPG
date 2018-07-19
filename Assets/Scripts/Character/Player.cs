@@ -11,7 +11,7 @@ public class Player : MonoBehaviour {
     }
 
     private State currentState = State.Move;    //角色状态
-    private CharacterController m_controller;   //刚体
+    private CharacterController m_controller;   //角色控制器
     private Animator m_animator;                //动画控制
     private float moveSpeed = 3;                //移动速度
 
